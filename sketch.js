@@ -1,8 +1,16 @@
 function setup() {
-  createCanvas(400, 400);
+createCanvas(windowWidth, windowHeight);
+stroke(84, 209, 82);
+textSize(70);
+textAlign(CENTER, TOP);
+text('OH SHIT!! ITS A SNAKE!!!', 500, 30);
+}
+function draw() {
+var weight = dist(mouseX, mouseY, pmouseX, pmouseY);
+strokeWeight(weight);
+line(mouseX, mouseY, pmouseX, pmouseY);
 }
 
-function draw() {
-  background(220);
-  ellipse(mouseX, mouseY, 55, 55);
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
