@@ -6,7 +6,8 @@ let snowflakes = []; // array to hold snowflake objects
 ///PRELOAD
 function preload() {
   song = loadSound("elf.mp3");
-  img = loadImage('santaclause.jpg');
+  img1 = loadImage('bugfix.jpg');
+  img2 = loadImage('santaclause.jpg');
 }
 
 ///SETUP
@@ -28,13 +29,14 @@ function draw() {
 ///Santa Image
   imageMode(CENTER);
   image(extraCanvas, 0, 0);
-  image(img, windowWidth/2, windowHeight/2);
+  image(img1, windowWidth/2, windowHeight/2);
+  image(img2, windowWidth/2, windowHeight/2);
  
 ///This turns the mouse into a "paintbrush"
   if (mouseIsPressed) {
   extraCanvas.fill(255);
   extraCanvas.noStroke();
-  extraCanvas.ellipse(mouseX, mouseY, 25, 25);}
+  extraCanvas.ellipse(mouseX, mouseY, 20, 20);}
   
   image(extraCanvas,windowWidth/2, windowHeight/2);
   
@@ -67,7 +69,8 @@ function snowflake() {
   this.posX = 0;
   this.posY = random(-50, 0);
   this.initialangle = random(0, 2 * PI);
-  this.size = random(2, 5);
+  noStroke()
+  this.size = random(4, 10);
 
   // Creates a radius for the spiral to follow
   this.radius = sqrt(random(pow(width / 2, 2)));
