@@ -1,2 +1,5 @@
 ## Robichaux_Sophia_ART2210
-[CLICK HERE! BEWARE OF SNAKES!](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1/Exercise1_Mouse_Move/Classwork_Sep18.html)
+[Cosmo & Wanda Racing](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1/Exercise3_Object_or_Array/Classwork_Sep18.html)
+
+![](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1/Exercise3_Object_or_Array/cosmoandwanda.jpg)
+
