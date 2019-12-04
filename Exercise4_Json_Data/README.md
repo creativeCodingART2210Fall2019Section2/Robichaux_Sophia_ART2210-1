@@ -1,2 +1,5 @@
 ## Robichaux_Sophia_ART2210
-[CLICK HERE FOR MY FIRST JSON!](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1//Exercise4_Json_Data/index.html)
+[Cosmo & Wanda Racing](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1/Exercise3_Object_or_Array/Sep26.html)
+
+![](https://sophiarobichaux.github.io/Robichaux_Sophia_ART2210-1/Exercise3_Object_or_Array/cosmoandwanda.jpg)
+
