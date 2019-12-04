@@ -1,9 +1,7 @@
 {
   "description": "A bunch of movies, mostly Best Picture winners or nominees, scraped from the web.",
   "popular-movies":
-}
 [
-  {
   "The Godfather (1972)",
   "Schindler's List (1993)",
   "Raging Bull (1980)",
@@ -260,5 +258,6 @@
   "Trainspotting (1996)",
   "Dazed and Confused (1993)",
   "Pretty Woman (1990)"
-}
 ]
+}
+
