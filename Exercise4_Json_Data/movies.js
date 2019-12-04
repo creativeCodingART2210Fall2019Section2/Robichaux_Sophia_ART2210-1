@@ -16,7 +16,7 @@ function draw(){
   textSize(25);
   push();
   textAlign(RIGHT);
-  text(list.movies[a].name,width/2-125,height/2)
+  text(list.movies,width/2-125,height/2)
   pop();
 }
 
